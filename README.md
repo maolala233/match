@@ -51,15 +51,6 @@ class Solution {
 # 3
 ```java
 import java.math.*;
-//hide-start
-public class YieldRate {
-
-    public static void main(String[] args) {
-        Object solution = YieldRateSolution.solution(Integer.parseInt(args[0]), Integer.parseInt(args[1]), Double.parseDouble(args[2]));
-        System.out.print(solution);
-    }
-}
-//hide-end
 class YieldRateSolution {
     public static Object solution(int a, int b, double c) {
 				// 代码写在这里
